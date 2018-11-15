@@ -1,0 +1,59 @@
+<html>
+<head>
+<title> Add Customer</title>
+</head>
+<body>
+	<form action="http://localhost:1234/customersAdded.php" method="post">
+
+		<font style="font-family:cursive" align="center" size="20" color="Purple"><i> New Customer Form</i></font> 
+
+		<p>First Name:
+			<input type="text" name="firstName" size="15" value=""/>
+		</p>
+
+		<p>Last Name:
+			<input type="text" name="lastName" size="15" value=""/>
+		</p>
+
+		<p>Email Address:
+			<input type="text" name="emailAddress" size="15" value""/>
+		</p>
+
+		<p>Street Address:
+			<input type="text" name="streetAddress" size="20" value="" />
+		</p>
+
+		<p>City:
+			<input type="text" name="city" size="20" value="" />
+		</p>
+
+		<p>State (2 Characters):
+			<input type="text" name="state" size="2" maxlength="2" value="" />
+		</p>
+
+		<p>Zipcode:
+			<input type="text" name="zipcode" size="5" maxlength="5" value="" />
+		</p>
+
+		<p>Phone Number (XXX XXX XXXX):
+			<input type="text" name="phoneNumber" size="11" value="" />
+		</p>
+
+		<p>Birth Date (MM-DD-YYYY):
+			<input type="text" name="birthDate" size="11" value="" />
+		</p>
+
+		<p>Male or Female:
+			<br>
+ 			<input type="radio" name="gender" value="male" > Male<br>
+ 			<input type="radio" name="gender" value="female"> Female<br>
+  			<input type="radio" name="gender" value="other"> Other<br> 
+		</br>
+		</p>
+		</form>
+		<form action="/action_page.php">
+ 		<input type="submit" value="Submit">
+
+	</form>
+</body>
+</html>
